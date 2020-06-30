@@ -76,7 +76,7 @@ return [
      *   You should treat it as extremely sensitive data.
      */
     'Security' => [
-        'salt' => env('SECURITY_SALT', '6b246aaae16c58605a4186aa5a02984be5d32d377f4029cff7d0993c12a90857'),
+        'salt' => env('SECURITY_SALT', '6b246aaae16c58605a4186aa5a02984be5d32d377f4029cff7d0993c12a94tgr'),
     ],
 
     /**
@@ -263,9 +263,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'docker_db_user',
-            'password' => 'docker_db_user_pass',
-            'database' => 'docker_db',
+            'username' => 'root',
+            'password' => 'root',
+            'database' => 'mydata',
             /*
              * You do not need to set this flag to use full utf-8 encoding (internal default since CakePHP 3.6).
              */
